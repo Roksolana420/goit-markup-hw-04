@@ -37,28 +37,22 @@ address {
 font-style: normal;
 }
 .container { 
-width: 1440px;
+width: 1158px;
 padding-left: 15px; 
 padding-right: 15px;  
 margin: 0 auto;
-/* outline: 2px solid blueviolet; */
 } 
 .header {
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
     border-bottom: 1px solid #e7e9fc;
 }
 .header-container{
     display: flex;
     align-items: center;
-    gap: 332px;
-    padding-left: 156px;
-    /* width: 1158px; */
 }
 .header-navigation {
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    margin-right: auto;
 }
 .header-logo {
 color:  #4D5AE5;
@@ -72,7 +66,6 @@ text-decoration: none;
 display: flex;
 align-items: center;
 margin-right: 76px;
-
 }
 .header-logo-color {
     color: #2E2F42;
@@ -86,6 +79,8 @@ text-transform: uppercase;
 .header-menu-list {
     display: flex;
     gap: 40px;
+    /* margin-right: 332px;
+    margin-left: 76px; */
 
 }
 .header-menu-item {
@@ -131,17 +126,19 @@ padding: 24px 0;
 }
 .hero {
     background-color: #2e2f42;
+    background-image: linear-gradient( 
+        rgba(46, 47, 66, 0.70),
+        rgba(46, 47, 66, 0.70)), 
+        url(../hero-bg-min.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     text-align: center;
     padding: 188px 0;
     justify-content: center;
 }
 .hero-container {
-    background:  #2E2F42; 
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
-    padding: 188px 472px 292px 472px;
-}
+} 
 .hero-title {
 color: #FFF;
 text-align: center;
@@ -150,7 +147,8 @@ font-weight: 700;
 line-height: 1.07; 
 letter-spacing: 0.02em;
 max-width: 496px;
-margin-bottom: 48px;
+padding-bottom: 48px;
+margin: 0 auto;
 }
 .button {
     display: block;
@@ -173,7 +171,7 @@ min-width: 169px;
 padding: 16px 32px;
 border: none;
 border-radius: 4px;
-margin-left: 150px;
+margin: 0 auto;
 }
 
 
@@ -193,8 +191,6 @@ margin-left: 150px;
 }
 .container {
 }
-/* .strategy-title {
-} */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -210,8 +206,6 @@ margin-left: 150px;
 .strategy-list {
     display: flex;
     gap: 24px; 
-    /* padding-left: 156px;
-    padding-right: 156px; */
 }
 .strategy-item {
     width: calc((100% - 72px) / 4);
@@ -250,20 +244,14 @@ text-transform: capitalize;
     margin-bottom: 72px;
 }
 .team-list {
-    margin: 0 156px 120px 156px;
+    
     display: flex;
     gap: 24px;
-    padding-bottom: 0px;
+    
 
 }
 .team-item {
-list-style: none;
 background-color: #FFFFFF;
-display: inline-flex;
-padding-bottom: 0px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
 width: calc((100% - 72px) / 4); 
 border-radius: 0px 0px 4px 4px;
 background:  #FFF;
@@ -282,7 +270,6 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.02em;
-padding: 32px 16px 8px;
 margin-bottom: 8px ;
 
 }
@@ -292,7 +279,6 @@ text-align: center;
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
-    padding: 0 16px 32px;
 }
 .our-portfolio {
     padding-top: 120px;
@@ -309,7 +295,6 @@ text-transform: capitalize;
 margin-bottom: 72px; 
 }
 .portfolio-list {
-/* padding: 360px 388px; */
 display: flex; 
 padding-bottom: 0px;
 align-items: flex-start;
@@ -321,10 +306,6 @@ column-gap: 24px;
 
 }
 .portfolio-item {
-    list-style: none;
-    border: 1px solid  #E7E9FC;
-    background:  #FFF;
-    /* width: calc((100% - 48%)/3);     */
     width: calc((100% - 48px) / 3); 
 }
 .portfolio-subtitle {
@@ -333,13 +314,10 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.02em;
-padding: 32px 16px 8px;
 margin-bottom: 8px;
 }
 
 .portfolio-img {
-    /* padding-bottom: 32px;
-    padding-top: 32px; */
 }
 .portfolio-info {
     padding: 32px 16px;
@@ -351,7 +329,6 @@ color:  #434455;
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
-    padding: 0 16px 32px;
 }
 .footer {
     background:  #2E2F42;
@@ -378,4 +355,22 @@ color:  #F4F4FD;
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
+width: 264px;
+}
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+}
+.footer-soc-item {
+    width: 40px;
+    height: 40px;
+}
+.footer-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-soc-icon {
 }
