@@ -313,12 +313,30 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .team-icon {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
 }
 .team-icon-list {
+    width: 40px;
+    height: 40px;
 }
 .team-icon-link {
+    width: 100%;
+    height: 100%;
+    background-color:  #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+.team-icon-link:hover,
+.team-icon-link:focus{
+    background-color: #404bbf;
 }
 .team-icon-svg {
+    fill: #f4f4fd ;
 }
 .our-portfolio {
     padding-top: 120px;
