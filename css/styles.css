@@ -244,6 +244,19 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 
 }
+
+.svg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px; 
+    margin-bottom: 8px; 
+}
+.advantages-svg {
+}
+
 .our-team {
     background-color: #F4F4FD;
     padding-top: 120px;
