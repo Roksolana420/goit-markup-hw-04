@@ -255,6 +255,7 @@ letter-spacing: 0.02em;
     margin-bottom: 8px; 
 }
 .advantages-svg {
+    flex-shrink: 0;
 }
 
 .our-team {
