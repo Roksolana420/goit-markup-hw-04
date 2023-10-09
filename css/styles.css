@@ -352,6 +352,10 @@ letter-spacing: 0.02em;
     background:  #2E2F42;
     padding: 100px 0;
 }
+.footer-content {
+    display: flex;
+    align-items: baseline;
+    }
 .footer-logo-container {
     margin-right: 120px;
 }
@@ -377,12 +381,6 @@ font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 width: 264px;
-}
-
-
-.footer-container {
-display: flex;
-align-items: baseline;
 }
 .footer-paragraf {
     font-weight: 500;
